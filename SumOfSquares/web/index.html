@@ -1,0 +1,21 @@
+<!--
+action = servlet url pattern
+-->
+
+<!-- 
+method = servlet method to call, default is get.
+form method get will call servlet's doGet(),
+form method post will call servlet's doPost(),
+etc
+-->
+<form action="sum" method="post">
+    <p>
+        Sum of square of entered number, e.g. 2 = 5, 3 = 14
+    </p>
+    <p>
+        Number: <input type="text" name="num" maxlength="2" size="3"/>
+    </p>
+    <p>
+        <input type="submit"/>
+    </p>
+</form>
